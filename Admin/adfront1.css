@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.hero{
+    height:100%;
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    position:absolute ;
+}
+#body1{
+    background-color:  rgb(136, 94, 174);
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0%;
+}
+.form-box{
+    width:300px;
+    height:550px;
+    margin:4% auto;
+    background-color: rgb(183, 164, 201) ;
+    padding:2px;
+    position: center;
+}
+.top{
+    width:100%;
+    padding:10px 5px;
+    margin:20px 70px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background: transparent;
+    position: center;
+    font-size: 25px;
+}
+  
+.title
+{
+  padding:2%;
+  margin:0%;
+  margin-left: 2%;
+  margin-right: 2% ;
+  font-size: 18px;
+  color:indigo;
+  
+}

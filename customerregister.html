@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="customerregister1.css">
+</head>
+<body>
+    <div>
+        <div id="body1">
+            <div class="title"> <h1><a href="home.html" > Art Gallery Managment System</a></h1> </div>
+            <div class="top"><h3><a href="home.html" > Home</a></h3></div>
+            <div class="top"><h3><a href="aboutus.html" > About us</a></h3></div>
+            <div class="top"><h3><a href="contact.html" > Contact</a></h3></div>
+            <div class="top"><h3><a href="customerlogin.php" > Customer</a></h3></div>
+            <div class="top"><h3><a href="adminlogin.html" > Admin</a></h3></div>
+            
+
+        </div>
+        <div id="body2">
+            
+            <div class="Admin">   
+              <h1 id="logfont">Register</h1>             
+                <form method="POST" action="customerregc.php">
+                  <input type="text" class='inputfield'name="username" placeholder="Enter username">
+                  <input type="password" class="inputfield" name="password" placeholder="Enter Password" minlength="6" pattern="^\S*$">
+                  <input type="text" class="inputfield" name="name" placeholder="Enter Name">
+                  <input type="text" class="inputfield" name="address" placeholder="Enter Address">
+                  <input type="date" class="inputfield" name="dob" placeholder="Enter DOB"><br>
+                  <p>
+                    <input type="submit" class="submit-btn" name="" value="Register">
+                  </p>
+                </form>
+              </div>
+        </div>
+    </div>
+
+
+
+    
+    
+
+</body>
+</html>
+
