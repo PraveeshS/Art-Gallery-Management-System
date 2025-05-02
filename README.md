@@ -1,0 +1,1 @@
+A responsive and user-friendly web platform designed to manage and explore artwork and exhibition data. Built using HTML, CSS, PHP, and MySQL, this system allows Customer to browse gallery details and adminstrators to manage artworks and exhibitions efficiently.
